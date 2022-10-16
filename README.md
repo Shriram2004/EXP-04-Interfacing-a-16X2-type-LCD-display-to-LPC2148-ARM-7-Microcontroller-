@@ -186,9 +186,9 @@ int main(void)
 {
 
 	LCD_INIT();
-	LCD_STRING("212221230083");//first line
+	LCD_STRING("212221240053");//first line
 	LCD_CMD(0xC0);
-	LCD_STRING("RITHIGA SRI.B");//second line
+	LCD_STRING("Shriram R");//second line
 
 	return 0;
 }
