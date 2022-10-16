@@ -186,16 +186,19 @@ int main(void)
 {
 
 	LCD_INIT();
-	LCD_STRING("212221240053");//first line
+	LCD_STRING("19EE309");//first line
 	LCD_CMD(0xC0);
-	LCD_STRING("Shriram R");//second line
+	LCD_STRING("ARM");//second line
 
 	return 0;
 }
 ~~~
 ## Proteus simulation 
-![](a.png)
+
+### Before simulation:
 ![](b.png)
+### After simulation:
+![](a.png)
 
 
 ##  layout Diagram 
